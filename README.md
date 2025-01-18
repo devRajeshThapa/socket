@@ -10,6 +10,13 @@ This project demonstrates a basic implementation of client-server communication 
 
 ## Getting Started
 
+## Platforms 
+
+This project is compatible with the following platforms: 
+- **Linux**
+- **macOS**
+- **Windows Subsystem for Linux (WSL)**
+
 ### Requirements
 * C++11 (or later) compiler
 * CMake 3.10+
