@@ -11,4 +11,5 @@ add_executable(client  src/client.cpp)
 
 install(TARGETS server RUNTIME DESTINATION bin)
 install(TARGETS client RUNTIME DESTINATION bin)
-install(FILES ${CMAKE_SOURCE_DIR}/docs/README_DIST.md DESTINATION ${CMAKE_SOURCE_DIR}/dist/docs RENAME README.md)
+install(FILES LICENSE DESTINATION docs)
+install(FILES docs/README_DIST.md DESTINATION docs RENAME README.md)
