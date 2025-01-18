@@ -86,14 +86,14 @@ Server is listening on port 8080
 Message from client: Hello server
 ```
 
-####Client Terminal
+#### Client Terminal
 ```sh
 Enter server IP: 127.0.0.1
 Enter server PORT: 8080
 Message for server: Hello server
 ```
 
-###Contributing
+### Contributing
 
 We welcome contributions! Please see CONTRIBUTING.md for details on how to get involved.
 
@@ -101,10 +101,10 @@ We welcome contributions! Please see CONTRIBUTING.md for details on how to get i
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-###Code of Conduct
+### Code of Conduct
 
 Please read our Code of Conduct to understand the standards we expect from our community.
 
-###Acknowledgements
+### Acknowledgements
 
 This implementation demonstrates basic socket programming in C++ using Unix APIs. Inspired by various online resources and tutorials on socket programming.
