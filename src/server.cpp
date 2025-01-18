@@ -46,10 +46,10 @@ int main() {
         }
 
         char buffer[1024] = {0};
-        int bytes_read = recv(client_fd, buffer, sizeof(buffer), 0);
-        if (bytes_read > 0) {
+        int byte_received = recv(client_fd, buffer, sizeof(buffer), 0);
+        if (byte_received > 0) {
             std::cout << "Message from client: " << buffer << std::endl;
-        } else if (bytes_read < 0) {
+        } else if (byte_received < 0) {
             std::cerr << "Receive failed: " << strerror(errno) << std::endl;
         }
 
