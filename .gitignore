@@ -1,0 +1,17 @@
+# Vim swap files
+*.swp
+*.swo
+
+# Vim backup files
+*.bak
+*.~*
+*.un~
+
+# Vim session files
+*.viminfo
+
+# build folder
+build
+
+# dist folder
+dist
