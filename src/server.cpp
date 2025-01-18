@@ -9,8 +9,7 @@
 
 int main() {
     int PORT;
-
-    std::cout << "Enter the PORT you want to listen: ";
+    std::cout << "Enter the port number you want to listen on: ";
     std::cin >> PORT;
 
     int server_fd = socket(AF_INET, SOCK_STREAM, 0);
