@@ -104,7 +104,7 @@ Message for server: Hello server
 
 We welcome contributions! Please see CONTRIBUTING.md for details on how to get involved.
 
-###License
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
